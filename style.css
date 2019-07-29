@@ -8,17 +8,22 @@
 /* pictures: */
 .all-pictures {
     display: grid;
+    grid-column-gap: 2px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 600px 240px;
+    grid-template-rows: 597px 200px;
 }
 .bigger-fig {
     background-color: blueviolet;
-    grid-column-start: 1;
-    grid-column-end: 5;
+    grid-column-start: 1; /*starts on the line 1*/
+    grid-column-end: 5; /*ends on the line 5*/
     grid-row-start: 1;
     grid-row-end: 2;
     height: 600px;  
     width:100%; 
+}
+.fig-one{
+    height:100%;
+    width:100%;
 }
 .medium-fig-2 {
     background-color: aqua;
@@ -26,7 +31,7 @@
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 3;
-    height: 250px;
+    height: 200px;
     width:100%;
 }
 .medium-fig-3 {
@@ -35,7 +40,7 @@
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
-    height: 250px;
+    height: 200px;
     width:100%;
 }
 .medium-fig-4 {
@@ -44,7 +49,7 @@
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 3;
-    height: 250px;
+    height: 200px;
     width:100%;
 }
 .medium-fig-5 {
@@ -53,7 +58,7 @@
     grid-column-end: 5;
     grid-row-start: 2;
     grid-row-end: 3;
-    height: 250px;
+    height: 200px;
     width:100%;
 }
 /* links: */
