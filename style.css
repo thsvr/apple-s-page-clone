@@ -9,11 +9,11 @@
 .all-pictures {
     display: grid;
     grid-column-gap: 2px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 300px 300px 300px 363px;
     grid-template-rows: 597px 200px;
 }
 .bigger-fig {
-    background-color: blueviolet;
+    background-image: url("images/fig-one.jpg");
     grid-column-start: 1; /*starts on the line 1*/
     grid-column-end: 5; /*ends on the line 5*/
     grid-row-start: 1;
@@ -61,11 +61,31 @@
     height: 200px;
     width:100%;
 }
+/* navbar: */
+.nav-bar-apple {
+    display: 
+}
+/* pictures used as a phrases over the first image: */
+.first-phrase {
+    position: absolute;
+    top: 370px;
+    left: 28%;
+}
+.second-phrase {
+    position: absolute;
+    top: 475px;
+    left:22%;
+}
+.last-phrase {
+    left:30%;
+    position: absolute;
+    top: 600px;
+    cursor: pointer;    
+}
 /* links: */
 .useful-links {
     display: flex;
-    margin-top:70px;
-    
+    margin-top:70px;    
 }
 .left-links {    
     background-color: palevioletred;
@@ -78,7 +98,7 @@
 }
 .left-links p {
     text-align: end;
-    margin-right: 5px;    
+    margin-right: 50px;    
 }
 .right-links {
     background-color:goldenrod;
