@@ -63,23 +63,67 @@
 }
 /* navbar: */
 .nav-bar-apple {
-    display: 
+    background-color: grey;
+    height: 40px;
+    width: 70%;
+    border: 2px solid black;
+    display:inline;
+    position: absolute;
+    top:90px;
+    left: 20%;     
+    border-radius: 5px;
+}
+.nav-bar-apple ul li a, form {
+    float: left; /* This aligned the items side by side. What is the best way to do this?*/
+    font:"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;   
+    margin: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;  
+    font-size: 12px;  
+    line-height: 6px;
+}
+.nav-bar-apple li a img {
+    justify-content: center;
+    
+    top: 0;
+}
+
+/* to change the link color to #111 (black) on hover */
+li :hover { 
+    background-color: rgb(59, 55, 55);    
+    width: 50px;
+    height: 20px;
+  }
+
+input {
+    background-color: #6e6e6e;
+    background-image:url("images/mag-white.png");
+    background-repeat:no-repeat; 
+    border-radius: 25px;
+    margin-top: 8px;
+    width: 130px;
+}
+input:focus { /* to change the color inside the input*/
+    background-color: white;
+    background-image:url("images/mag-grey.png");
+    background-repeat:no-repeat; 
 }
 /* pictures used as a phrases over the first image: */
 .first-phrase {
     position: absolute;
-    top: 370px;
+    top: 180px;
     left: 28%;
 }
 .second-phrase {
     position: absolute;
-    top: 475px;
+    top: 275px;
     left:22%;
 }
 .last-phrase {
     left:30%;
     position: absolute;
-    top: 600px;
+    top: 400px;
     cursor: pointer;    
 }
 /* links: */
