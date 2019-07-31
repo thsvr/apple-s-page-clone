@@ -3,8 +3,7 @@
 
 
 
-A clone of an old version of <a href="https://web.archive.org/web/20140301004610/http://www.apple.com/">Apple's</a><br>
- page. 
+A clone of an old version of <a href="https://web.archive.org/web/20140301004610/http://www.apple.com/">Apple's</a> page. 
 <br><br>
 
 Built With:
