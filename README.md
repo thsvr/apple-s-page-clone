@@ -11,7 +11,7 @@ Built With:
 * CSS3 (flexbox, grid, gradientes and background-image) 
 
 # GitHub Page
-Live version:
+Live version: <a href="https://raw.githack.com/thsvr/apple-s-page-clone/main/index.html">Apple's Page Clone</a>
 
 # Author
 * <a href="https://github.com/thsvr">Thaís Vieira Azevedo</a>
