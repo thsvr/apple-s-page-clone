@@ -6,59 +6,47 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 	<title>Apple's Clone</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<!--<link rel="shortcut icon" type="image/png" href="#"/> TO PUT FAVICON-->
 </head>
 <body>
 <!--navbar: -->
-    <header>
-        <nav class="nav-bar-apple">
-            <ul>
-                <li><a><img src="images/logo.png"></a></li>
-                <li><a href="#">Store</a></li>
-                <li><a href="#">Mac</a></li>
-                <li><a href="#">iPod</a></li>
-                <li><a href="#">iPhone</a></li>
-                <li><a href="#">iPad</a></li>
-                <li><a href="#">iTunes</a></li>
-                <li><a href="#">Support</a></li>
-                <li><input id="search" type="text"></li>
-            </ul>          
-        </nav>
-    </header>
-<!--grid with five images: -->
+    <nav class="nav-bar-apple">
+        <ul>
+            <li><a><img src="images/logo.png"></a></li>
+            <li><a href="#">Store</a></li>
+            <li><a href="#">Mac</a></li>
+            <li><a href="#">iPod</a></li>
+            <li><a href="#">iPhone</a></li>
+            <li><a href="#">iPad</a></li>
+            <li><a href="#">iTunes</a></li>
+            <li><a href="#">Support</a></li>
+            <li><input id="search" type="text"></li>
+        </ul>          
+    </nav>
+    
+<!--grid with five background-images on CSS: -->
     <section class="all-pictures">
-        <figure class="medium-fig-2">
-                <img src="images/fig-two.jpg" alt="iPhone5s">
-            </figure>
-
-        <figure class="medium-fig-3">
-            <img src="images/fig-three.jpg" alt="iPhone5c">
-        </figure>
-
-        <figure class="medium-fig-4">
-            <img src="images/fig-four.jpg" alt="mac history">
-        </figure>
-
-        <figure class="medium-fig-5">
-            <img src="images/fig-five.jpg" alt="woman with iPad">
-        </figure>
+        <div class="bigger-fig"></div>
+        <div class="medium-fig-2"></div>
+        <div class="medium-fig-3"></div>
+        <div class="medium-fig-4"></div>
+        <div class="medium-fig-5"></div>
     </section>
 <!--images over the background-images: -->
     <section class="phrases">
         <fig class="first-phrase">
-            <img src="images/first-phrase.png" alt="phrase">
+            <a href="#"><img src="images/first-phrase.png" alt="phrase"></a>
         </fig>
 
         <fig class="second-phrase">
-            <img src="images/second-phrase.png" alt="phrase">
+            <a href="#"><img src="images/second-phrase.png" alt="phrase"></a>
         </fig>
 
         <fig class="last-phrase">
-            <img src="images/last-phrase.png" alt="phrase">
+            <a href="#"><img src="images/last-phrase.png" alt="phrase"></a>
         </fig>
     </section>
 <!--flexbox with 2 divs:-->
-    <div class="useful-links">
+    <footer class="useful-links">
         <div class="left-links">
             <p>Shop the <a href="https://web.archive.org/web/20140301004610/http://store.apple.com/us">Apple Online Store</a> (1-800-MY-APPLE), visit an <a href="https://web.archive.org/web/20140301004610/http://www.apple.com/retail/">Apple Retail Store</a>, or find a <a href="https://web.archive.org/web/20140301004610/http://www.apple.com/buy/">reseller.</a></p>  
             <p>Copyright © 2014 Apple Inc. All rights reserved.<a href="https://web.archive.org/web/20140301004610/http://www.apple.com/legal/">Terms of Use</a>|<a href="https://web.archive.org/web/20140301004610/http://www.apple.com/legal/privacy/">Privacy Policy.</a></p>
@@ -75,7 +63,6 @@
                 <li><a href="https://web.archive.org/web/20140301004610/http://www.apple.com/choose-your-country/" alt="flag USA"><img src="images/usa.png" alt="flag USA"></a></li>
             </ul>
         </div>
-
-    </div>
+    </footer>
 </body>
 </html>
