@@ -10,7 +10,7 @@
     display: grid;
     grid-column-gap: 6px;
     grid-row-gap: 5px;
-    grid-template-columns: 300px 300px 300px 363px;
+    grid-template-columns: repeat(4, 1fr);
 }
 .bigger-fig {
     background-image: url("images/fig-one.jpg");
@@ -78,7 +78,8 @@
 }
 .nav-bar-apple ul {
     list-style-type: none;
-    background-image: linear-gradient(to bottom, #8A8A8A 20%, #363737 80%);
+    background-image: linear-gradient(to bottom, #606060 50%, #707070 50%);
+    opacity: 1;
 }
 .nav-bar-apple li:hover {
    background-image: linear-gradient(to bottom,  #363737 20%, #8A8A8A 80%);
@@ -123,7 +124,7 @@ input:focus { /* to change the color inside the input*/
     left: 25%;
     position: absolute;
     top: 180px;
-    width: 100%;
+    width: 75%;
 }
 .second-phrase {
     background-image: url("images/second-phrase.png");
@@ -132,7 +133,7 @@ input:focus { /* to change the color inside the input*/
     left:22%;
     position: absolute;
     top: 275px;
-    width:100%;
+    width:78%;
 }
 .last-phrase {
     background-image: url("images/last-phrase.png");
@@ -141,7 +142,7 @@ input:focus { /* to change the color inside the input*/
     left: 30%;
     position: absolute;
     top: 400px;   
-    width:100%;
+    width:70%;
 }   
 /* footer: */
 .useful-links {
